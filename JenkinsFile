@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building project..."
+                bat 'echo Hello from Windows CMD'
             }
         }
         stage('Test') {
